@@ -1,0 +1,97 @@
+# =========================
+# Visual Studio / .NET .gitignore
+# =========================
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Visual Studio cache/options directory
+.vs/
+.vscode/
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+## Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+*.testsettings
+*.coverage
+*.coveragexml
+
+## NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/ and tools/ folders under packages
+!**/[Pp]ackages/build/
+!**/[Pp]ackages/repositories.config
+!**/[Tt]ools/
+
+## Rider
+.idea/
+
+## Logs
+*.log
+logs/
+Logs/
+
+## Database
+*.mdf
+*.ldf
+*.ndf
+
+## Secrets / Config
+appsettings.Development.json
+secrets.json
+
+## Others
+*.bak
+*.tmp
+*.swp
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Exclude published output
+publish/
+dist/
+
+# Exclude any temporary files from IIS Express
+iisexpress/
+
+# OS generated files
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Node / npm (if using frontend)
+node_modules/
+.env
+.env.*
+
+# =========================
+# END OF FILE
+# =========================
